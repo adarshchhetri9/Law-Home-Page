@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  /* border: 0.1px solid pink; */
+}
+body{
+  background-color: #2b2922;
+  color: white;
+}
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav > div:nth-child(2){
+  flex: 2;
+}
+h1{
+  font-size: 3.5rem;
+}
+
+.list{
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  flex-wrap: wrap
+}
+
+.list-item:hover{
+  color: #ecdd8f;
+  cursor: pointer;
+}
+
+.list-item{
+  margin-right: 30px;
+}
+
+section[aria-label="navbar"] {
+  margin: 40px;
+}
+
+.button-small:hover{
+  padding: 10px 40px;
+  background-color: transparent;
+  color: #d1c06c;
+  border: 1px solid #ecdd8f;
+
+}
+
+.button-small{
+  padding: 10px 40px;
+  background-color: transparent;
+  color: #958534;
+  border: 1px solid #958534;
+  border-radius: 5px;
+  font-weight: bolder
+}
+
+.logo{
+  height: 30px;
+}
+
+/* ------------------------------ */
+
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+  margin: 10vh 20vh;
+  align-items: center;
+}
+h1 , p{
+  flex: 1;
+}
+p{
+  padding-left: 20px;
+}
+img{
+  width: 100%;
+}
+
+
+.bottom{
+  float: right;
+  height: 0px;
+}
+
+.hero-heading , .hero-bod{
+  flex: 1;
+  /* padding: 30px; */
+}
+
+.button-large-prev{
+  background-color: #39372d;
+  color: #958534;
+  padding: 20px;
+  /* border-radius: 50%; */
+  position: relative;
+}
+
+.button-large-next{
+  background-color: #39372d;
+  color: #958534;
+  padding: 20px;
+  /* border-radius: 50%; */
+  position: relative;
+  bottom: 72px;
+  right: 74px;
+}
+
+.button-large-prev:hover , .button-large-next:hover{
+  background-color : #958534; 
+  color: white;
+}
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
